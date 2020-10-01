@@ -32,7 +32,7 @@ const StyledContainer = styled.div`
   height: 100vh;
   outline: 0;
   z-index: 10;
-  transition: all 0.3s ease-in-out;
+  transition: all 1.2s ease-in-out;
   transform: ${({ open }) => (open ? "translateX(0)" : "translateX(100%)")};
   visibility: ${({ open }) => (open ? "visible" : "hidden")};
   @media (min-width: ${({ theme }) => theme.breakpoints.lg}) {
@@ -46,7 +46,7 @@ const StyledNav = styled.nav`
   justify-content: center;
   background: ${({ theme }) => theme.colors.background};
   height: 100vh;
-  width: 55%;
+  width: 100%;
   text-align: left;
   padding: 2rem;
   position: relative;
@@ -70,7 +70,7 @@ const StyledNav = styled.nav`
     font-size: 1.5rem;
     border-radius: ${({ theme }) => theme.borderRadius};
     border: 0.125rem solid ${({ theme }) => theme.colors.primary};
-    background: ${({ theme }) => theme.colors.background};
+    background: ${({ theme }) => theme.colors.secondary};
   }
 `
 
