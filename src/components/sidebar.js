@@ -56,7 +56,7 @@ const StyledNav = styled.nav`
     color: ${({ theme }) => theme.colors.primary};
   }
   .nav-link {
-    font-size: 1.5rem;
+    font-size: 3rem;
     font-weight: 700;
     text-align: center;
     padding: 1.5rem 0;
@@ -64,10 +64,10 @@ const StyledNav = styled.nav`
   .cta-btn {
     width: auto;
     height: auto;
-    margin: 1.5rem auto;
+    margin: 4rem auto;
     padding: 1rem 1.5rem;
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     border-radius: ${({ theme }) => theme.borderRadius};
     border: 0.125rem solid ${({ theme }) => theme.colors.primary};
     background: ${({ theme }) => theme.colors.secondary};
