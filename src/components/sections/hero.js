@@ -52,7 +52,7 @@ const StyledContentWrapper = styled(ContentWrapper)`
       }
     }
     .subtitle {
-      margin-top: -0.75rem;
+      margin-top: 1.00rem;
     }
     .description {
       font-size: 1.125rem;
@@ -116,10 +116,15 @@ const Hero = ({ content }) => {
           </h1>
           <h2 className="subtitle">
             {frontmatter.subtitlePrefix}{" "}
+            <AnimatedUnderlining animate={uControls} color="tertiary" big>
+              {frontmatter.role}
+            </AnimatedUnderlining>
+            {" "}{frontmatter.subtitlePrefix2}{" "}
             {/* Hover state color can be set in useEffect hook */}
             <AnimatedUnderlining animate={uControls} color="tertiary" big>
               {frontmatter.subtitle}
             </AnimatedUnderlining>
+            {"."}
           </h2>
           <div className="description">
             <MDXRenderer>{body}</MDXRenderer>
