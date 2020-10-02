@@ -31,7 +31,7 @@ module.exports = {
             url: "https://www.are.na/kevin-davis"
         },
     ],
-  
+
     navLinks: {
         menu: [
             {
