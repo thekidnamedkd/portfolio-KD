@@ -133,6 +133,9 @@ const Hero = ({ content }) => {
         <motion.div initial={{ opacity: 0, x: 20 }} animate={sControls}>
           <Social fontSize=".95rem" padding=".3rem 1.25rem" width="auto" />
         </motion.div>
+          <div>
+            <hr />
+          </div>
       </StyledContentWrapper>
     </StyledSection>
   )
