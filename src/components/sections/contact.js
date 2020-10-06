@@ -87,7 +87,7 @@ const Contact = ({ content }) => {
             </a>
           </div>
         </div>
-        <Social width="9rem" padding=".75rem 1.25rem" withIcon />
+        <Social width="8rem" padding=".75rem 1rem" withIcon />
       </StyledContentWrapper>
     </StyledSection>
   )
