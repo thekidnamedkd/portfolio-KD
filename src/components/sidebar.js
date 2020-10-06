@@ -47,7 +47,7 @@ const StyledNav = styled.nav`
   background: ${({ theme }) => theme.colors.background};
   height: 100vh;
   width: 100%;
-  line-height: 300%; 
+  line-height: 200%; 
   text-align: left;
   padding: 2rem;
   position: relative;
@@ -60,7 +60,7 @@ const StyledNav = styled.nav`
     font-size: 3rem;
     font-weight: 700;
     text-align: center;
-    padding: 1.5rem 0;
+    padding: 1.25rem 0;
   }
   .cta-btn {
     width: auto;
