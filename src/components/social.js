@@ -23,7 +23,7 @@ const StyledSocialWrapper = styled.div`
   overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
   &::-webkit-scrollbar {
-    display: none;
+    display: block;
   }
 
   /* Workaround: https://stackoverflow.com/questions/38993170/last-margin-padding-collapsing-in-flexbox-grid-layout */
