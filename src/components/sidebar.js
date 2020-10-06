@@ -47,6 +47,7 @@ const StyledNav = styled.nav`
   background: ${({ theme }) => theme.colors.background};
   height: 100vh;
   width: 100%;
+  line-height: 300%; 
   text-align: left;
   padding: 2rem;
   position: relative;
