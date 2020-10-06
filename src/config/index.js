@@ -48,8 +48,7 @@ module.exports = {
 
     footerLinks: [
         {
-            name: "Privacy",
-            url: "/privacy"
+            name: "© Kevin Davis 2020",
         },
     ]
 }
